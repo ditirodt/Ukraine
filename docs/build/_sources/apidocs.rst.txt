@@ -1,0 +1,56 @@
+Documentation
+=================
+.. automodule:: main
+   :members:
+Background
+===========
+
+Ukrainians fleeing the conflict need information to make informed decisions.One of the most
+popular ways Ukranians reach information is Telegram. Many channels like UAHelpInfo
+(https://t.me/UAhelpinfo) curate information about hosting countries.
+
+
+
+Research
+--------
+A robust plan was taken on how to do the research in a short period of time. As with any scietific work,there has to be a clear goal which in this case was to:
+
+- Scrape infomation on a Telegram channel and store it in a structured manner.
+- examine the information on education in different countries
+
+The research was done on what toolss to be used to scrape the information,:
+- APIs 
+- Methodology
+- Libraries
+- IDEs
+
+Methodology
+------------
+Methodology is an approach that data scientists follow to find a solution to a specific problem, and using the data that is involved.
+
+- Business understanding
+- Data understanding
+- Data preparation
+- Modeling
+- Evaluation
+- Deployment
+
+
+Libraries Used
+--------------
+These are software that are used to perform specific tasks.
+
+- Pandas: Data analysis library
+- Json: storage library
+- Telethon- API to manipulate telegram
+- Configparser: to read config files containing api keys
+- asyncio: coroutine library
+- datetime: to manipulate dates and times
+- sphinx: to generate documentation
+
+document that compiles education information in each country
+-------------------------------------------------------------
+Steps
+-----
+- Get links associated with countries from message column using regex
+
