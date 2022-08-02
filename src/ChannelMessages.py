@@ -1,4 +1,5 @@
-"""This is a class that scrape messages from telegram channel
+"""
+  This is a class that scrape messages from telegram channel
 
 """
 import configparser
